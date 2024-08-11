@@ -6,7 +6,7 @@ from discord.ext import tasks
 import zoneinfo
 
 tz = zoneinfo.ZoneInfo('America/Los_Angeles')
-time = datetime.time(hour=17, minute=14, tzinfo=tz)
+time = datetime.time(hour=8, minute=30, tzinfo=tz)
 
 client = discord.Client(intents=discord.Intents.all())
 
