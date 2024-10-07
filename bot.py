@@ -30,6 +30,7 @@ async def refresh_threads():
 async def on_ready():
     print("I'm in")
     print(client.user)
+    await refresh_threads()
     refresh_threads.start()
 
 async def kill_channel(channel):
